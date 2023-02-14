@@ -10,19 +10,20 @@ public class tarea6 {
 
     public static void main(String[] args) {
 
+        // Refactorizacion para hacer commit
 
-        SelectionSort selectionSort = new SelectionSort();
-        int[] array1 = { 10, 1, 5, 40, 12, 34, 44, 12, 11, 9 };
-        selectionSort.printArray(array1);
-        selectionSort.sortArray(array1);
-        selectionSort.printArray(array1);
+        Ordenacion paraElCommit = new Ordenacion();
+        int[] lista1 = { 10, 1, 5, 40, 12, 34, 44, 12, 11, 9 };
+        paraElCommit.printArray(lista1);
+        paraElCommit.sortArray(lista1);
+        paraElCommit.printArray(lista1);
         System.out.println();
 
-        int[] array2 = { 3, 1, 23, 18, 41, 4, 44, 7, 16, 2 };
+        int[] lista2 = { 3, 1, 23, 18, 41, 4, 44, 7, 16, 2 };
         int[] array3;
-        selectionSort.printArray(array2);
-        array3=selectionSort.sortArray2(array2);
-        selectionSort.printArray(array3);
+        paraElCommit.printArray(lista2);
+        array3=paraElCommit.sortArray2(lista2);
+        paraElCommit.printArray(array3);
     }
 
     public static int ej1(int a, int b, int c){
